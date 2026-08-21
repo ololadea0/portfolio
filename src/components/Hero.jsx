@@ -3,7 +3,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowRight, Download, ChevronDown } from "lucide-react";
 
 const PORTRAIT =
-  "https://images.unsplash.com/photo-1573497161161-c3e73707e25c?w=520&h=520&fit=crop&auto=format";
+  "https://res.cloudinary.com/djw640wo2/image/upload/v1787310343/ppppp_yegzhp.png";
 
 const floatingBadges = [
   { label: "React", x: "102%", y: "12%", delay: 0 },
