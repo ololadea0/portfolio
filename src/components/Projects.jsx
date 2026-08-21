@@ -29,6 +29,7 @@ const projects = [
       "Cloudinary",
       "JWT",
       "Passport",
+      "Tailwind CSS",
     ],
 
     links: {
@@ -76,6 +77,7 @@ const projects = [
       "Cloudinary",
       "Multer",
       "JWT",
+      "Tailwind CSS",
     ],
 
     links: {
@@ -126,6 +128,7 @@ const projects = [
       "MTCNN",
       "MySQL",
       "JWT",
+      "Tailwind CSS",
     ],
 
     links: {
@@ -179,6 +182,8 @@ const projects = [
       "FaceNet",
       "MTCNN",
       "MongoDB",
+      "JWT",
+      "Tailwind CSS",
     ],
 
     links: {
