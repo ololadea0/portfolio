@@ -135,7 +135,8 @@ const projects = [
         backend:
           "https://github.com/ololadea0/biometric_attendance_backend.git",
       },
-      caseStudy: "https://example.com/case-studies/biometric-attendance-video",
+      caseStudy:
+        "https://res.cloudinary.com/djw640wo2/video/upload/v1787309701/lv_0_20260821113714_owk3zm.mp4",
     },
 
     features: [
@@ -183,7 +184,7 @@ const projects = [
     links: {
       github: "https://github.com/ololadea0/exam-verification.git",
       caseStudy:
-        "https://example.com/case-studies/biometric-exam-verification-video",
+        "https://res.cloudinary.com/djw640wo2/video/upload/v1787309672/lv_0_20260821112742_tzhsmr.mp4",
     },
 
     features: [
@@ -204,40 +205,40 @@ const projects = [
       "Implemented an end-to-end examination verification workflow where administrators can register candidates, enroll facial samples, perform real-time identity verification, and review verification outcomes. The system integrates React, Node.js/Express, and Python/FastAPI services for facial processing and matching, with verification attempts and audit events recorded for review.",
   },
   {
-  id: 5,
-  title: "LASEPA Landing Page",
-  shortDesc:
-    "A modern responsive landing page concept for the Lagos State Environmental Protection Agency.",
+    id: 5,
+    title: "LASEPA Landing Page",
+    shortDesc:
+      "A modern responsive landing page concept for the Lagos State Environmental Protection Agency.",
 
-  fullDesc:
-    "A responsive landing page concept developed as part of my SIWES training at Dawah Nigeria. Built with React and CSS, the project focused on creating a clear, professional public-sector interface with responsive layouts and accessible design.",
+    fullDesc:
+      "A responsive landing page concept developed as part of my SIWES training at Dawah Nigeria. Built with React and CSS, the project focused on creating a clear, professional public-sector interface with responsive layouts and accessible design.",
 
-  image:
-    "https://res.cloudinary.com/djw640wo2/image/upload/v1787234449/Screenshot_2026-08-20_150034_nlmcqa.jpg",
+    image:
+      "https://res.cloudinary.com/djw640wo2/image/upload/v1787234449/Screenshot_2026-08-20_150034_nlmcqa.jpg",
 
-  gradient: "linear-gradient(135deg, #065f46 0%, #064e3b 100%)",
+    gradient: "linear-gradient(135deg, #065f46 0%, #064e3b 100%)",
 
-  tags: ["HTML", "JavaScript", "CSS"],
+    tags: ["HTML", "JavaScript", "CSS"],
 
-  links: {
-    demo: "https://lasepalagos.netlify.app/",
-    github: "https://github.com/ololadea0/lasepa-landing-page.git",
+    links: {
+      demo: "https://lasepalagos.netlify.app/",
+      github: "https://github.com/ololadea0/lasepa-landing-page.git",
+    },
+
+    features: [
+      "Fully responsive layout across desktop, tablet, and mobile",
+      "Reusable React component structure",
+      "Semantic HTML and accessible design",
+      "Responsive navigation and page sections",
+      "Optimized styling with minimal dependencies",
+    ],
+
+    challenge:
+      "Creating a professional public-sector interface that communicates clarity and trust while maintaining responsive behavior and accessible design across different screen sizes.",
+
+    result:
+      "Built a responsive landing page concept demonstrating practical React development, component-based design, responsive CSS, and attention to accessibility as part of SIWES training at Dawah Nigeria.",
   },
-
-  features: [
-    "Fully responsive layout across desktop, tablet, and mobile",
-    "Reusable React component structure",
-    "Semantic HTML and accessible design",
-    "Responsive navigation and page sections",
-    "Optimized styling with minimal dependencies",
-  ],
-
-  challenge:
-    "Creating a professional public-sector interface that communicates clarity and trust while maintaining responsive behavior and accessible design across different screen sizes.",
-
-  result:
-    "Built a responsive landing page concept demonstrating practical React development, component-based design, responsive CSS, and attention to accessibility as part of SIWES training at Dawah Nigeria.",
-},
 ];
 
 function Tag({ label }) {
@@ -290,7 +291,7 @@ function ProjectModal({ project, onClose }) {
           border: "1px solid var(--border)",
           borderRadius: 20,
           width: "100%",
-               maxWidth: "min(92vw, 760px)",
+          maxWidth: "min(92vw, 760px)",
           maxHeight: "88vh",
           overflow: "auto",
           boxShadow: "var(--shadow2)",
@@ -299,7 +300,7 @@ function ProjectModal({ project, onClose }) {
         {/* Header */}
         <div
           style={{
-                 height: "clamp(140px, 22vw, 200px)",
+            height: "clamp(140px, 22vw, 200px)",
             background: project.gradient,
             borderRadius: "20px 20px 0 0",
             position: "relative",
