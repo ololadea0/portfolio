@@ -8,6 +8,7 @@ const row1 = [
   "Node.js",
   "Express",
   "FastAPI",
+  "Flask",
   "PostgreSQL",
   "MySQL",
   "MongoDB",
@@ -15,6 +16,8 @@ const row1 = [
   "REST APIs",
   "Git",
   "GitHub",
+  "Supabase",
+  "CLoudinary",
 ];
 const row2 = [
   "TypeScript",
@@ -23,7 +26,7 @@ const row2 = [
   "Supabase",
   "Cloudinary",
   "Docker",
-  "Linux",
+  "Passport",
   "JWT",
   "Computer Vision",
   "Facial Recognition",
