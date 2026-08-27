@@ -349,8 +349,8 @@ export default function Hero() {
               >
                 Contact Me
               </a>
-              {/* <a
-                href="#"
+              <a
+                href="https://drive.google.com/file/d/1JPy3RVgilkJHSEavPHa7ws69wYfW69xi/view?usp=drive_link"
                 style={{
                   display: "inline-flex",
                   alignItems: "center",
@@ -374,7 +374,7 @@ export default function Hero() {
                 }}
               >
                 <Download size={14} /> Resume
-              </a> */}
+              </a>
             </motion.div>
           </motion.div>
 

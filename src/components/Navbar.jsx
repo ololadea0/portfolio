@@ -117,8 +117,8 @@ export default function Navbar({ dark, onToggle }) {
           }}
         >
           {/* Resume — desktop only */}
-          {/* <a
-            href="#"
+          <a
+            href="https://drive.google.com/file/d/1JPy3RVgilkJHSEavPHa7ws69wYfW69xi/view?usp=drive_link"
             className="hidden lg:inline-flex"
             style={{
               fontSize: 13,
@@ -134,7 +134,7 @@ export default function Navbar({ dark, onToggle }) {
             onMouseLeave={(e) => (e.currentTarget.style.opacity = "1")}
           >
             Resume
-          </a> */}
+          </a>
 
           {/* Social icons — hidden on small screens */}
           {[
@@ -277,8 +277,8 @@ export default function Navbar({ dark, onToggle }) {
                 </a>
               ))}
               <div style={{ display: "flex", gap: 10, marginTop: 16 }}>
-                {/* <a
-                  href="#"
+                <a
+                  href="https://drive.google.com/file/d/1JPy3RVgilkJHSEavPHa7ws69wYfW69xi/view?usp=drive_link"
                   style={{
                     flex: 1,
                     fontSize: 14,
@@ -292,7 +292,7 @@ export default function Navbar({ dark, onToggle }) {
                   }}
                 >
                   Resume
-                </a> */}
+                </a>
                 <a
                   href="https://github.com/ololadea0"
                   target="_blank"
