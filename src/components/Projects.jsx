@@ -139,7 +139,7 @@ const projects = [
           "https://github.com/ololadea0/biometric_attendance_backend.git",
       },
       caseStudy:
-        "https://res.cloudinary.com/djw640wo2/video/upload/v1787309701/lv_0_20260821113714_owk3zm.mp4",
+        "https://res.cloudinary.com/djw640wo2/video/upload/v1787823445/lv_0_20260822162141_uqpa7t.mp4",
     },
 
     features: [
@@ -189,7 +189,7 @@ const projects = [
     links: {
       github: "https://github.com/ololadea0/exam-verification.git",
       caseStudy:
-        "https://res.cloudinary.com/djw640wo2/video/upload/v1787309672/lv_0_20260821112742_tzhsmr.mp4",
+        "https://res.cloudinary.com/djw640wo2/video/upload/v1787823476/lv_0_20260822162719_xiqh2x.mp4",
     },
 
     features: [
@@ -211,6 +211,47 @@ const projects = [
   },
   {
     id: 5,
+    title: "Cedar Heights College Website",
+    shortDesc:
+      "A modern, responsive school website designed to help a secondary school establish a professional online presence and provide essential information to prospective parents and students.",
+
+    fullDesc:
+      "A modern multi-page website concept for Cedar Heights College, a fictional Nigerian secondary school. The website provides information about the school, academics, admissions, facilities, news and events, and contact details through a professional and responsive interface designed for parents, students, and visitors.",
+
+    image:
+      "https://res.cloudinary.com/djw640wo2/image/upload/v1787822990/Screenshot_2026-08-27_102903_w3bvft.jpg",
+
+    gradient: "linear-gradient(135deg, #1e3a8a 0%, #172554 100%)",
+
+    tags: ["React", "JavaScript", "CSS", "Responsive Design"],
+
+    links: {
+      demo: "https://cedarheightscollege.netlify.app/",
+      github: "https://github.com/ololadea0/school-website-demo.git",
+    },
+
+    features: [
+      "Professional multi-page school website",
+      "Responsive design for desktop, tablet, and mobile devices",
+      "School information and leadership sections",
+      "Academic programmes and departments",
+      "Dedicated admissions information and application process",
+      "School facilities showcase",
+      "Photo gallery for school activities and campus",
+      "News and events section",
+      "Contact form and location information",
+      "Clear navigation and calls to action for prospective parents",
+    ],
+
+    challenge:
+      "Designing a professional school website that presents academic information, admissions details, facilities, and school activities clearly while maintaining a trustworthy and welcoming experience for parents and students across different devices.",
+
+    result:
+      "Designed and developed a responsive school website concept that provides a complete online presence for a secondary school, with dedicated sections for academics, admissions, facilities, news, events, gallery, and contact information.",
+  },
+
+  {
+    id: 6,
     title: "LASEPA Landing Page",
     shortDesc:
       "A modern responsive landing page concept for the Lagos State Environmental Protection Agency.",

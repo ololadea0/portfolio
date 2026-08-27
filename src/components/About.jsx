@@ -106,16 +106,17 @@ export default function About() {
               }}
             >
               My work spans web applications, backend systems, and computer
-              vision, from full-stack digital libraries to biometric attendance
-              systems powered by facial recognition using FaceNet and MTCNN.
+              vision, from full-stack digital libraries and business
+              applications to biometric attendance and examination verification
+              systems.
             </motion.p>
             <motion.p
               variants={fadeUp}
               style={{ fontSize: 16, lineHeight: 1.75, color: "var(--fgm)" }}
             >
-              I'm currently seeking opportunities where I can apply strong
-              engineering fundamentals to real-world challenges and continue
-              building practical software.
+              I&apos;m interested in building practical software that helps
+              organizations improve their operations, solve everyday challenges,
+              and deliver better digital experiences.
             </motion.p>
           </motion.div>
 
