@@ -118,7 +118,7 @@ export default function Navbar({ dark, onToggle }) {
         >
           {/* Resume — desktop only */}
           <a
-            href="https://drive.google.com/file/d/1JPy3RVgilkJHSEavPHa7ws69wYfW69xi/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1NE3toA2yNKFGBazfoEvDYiVfy-HDVAZv/view?usp=drive_link"
             className="hidden lg:inline-flex"
             style={{
               fontSize: 13,
@@ -278,7 +278,7 @@ export default function Navbar({ dark, onToggle }) {
               ))}
               <div style={{ display: "flex", gap: 10, marginTop: 16 }}>
                 <a
-                  href="https://drive.google.com/file/d/1JPy3RVgilkJHSEavPHa7ws69wYfW69xi/view?usp=drive_link"
+                  href="https://drive.google.com/file/d/1NE3toA2yNKFGBazfoEvDYiVfy-HDVAZv/view?usp=drive_link"
                   style={{
                     flex: 1,
                     fontSize: 14,
